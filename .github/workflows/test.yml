@@ -3,7 +3,7 @@ name: Deploy Worker Script
 on:
   push:
     tags:
-      - '*'  # 当任何标签被推送时触发
+      - '*'  # 当任何标签被推送时触发发
 
 jobs:
   deploy-worker:
